@@ -81,13 +81,14 @@ const MyProSidebar = () => {
           color: `${colors.greenAccent[500]} !important`,
           backgroundColor: "transparent !important",
         },
-      }}
+      }} 
     >
       <Sidebar
         breakPoint="md"
         rtl={sidebarRTL}
         backgroundColor={colors.primary[400]}
         image={sidebarImage}
+
       >
         <Menu iconshape="square">
           <MenuItem
@@ -108,6 +109,8 @@ const MyProSidebar = () => {
               margin: "10px 0 20px 0",
               color: colors.grey[100],
             }}
+
+            
           >
             {!collapsed && (
               <Box
@@ -115,6 +118,7 @@ const MyProSidebar = () => {
                 justifyContent="space-between"
                 alignItems="center"
                 ml="15px"
+
               >
                 <Typography variant="h3" color={colors.grey[100]}>
                   Pro Board
