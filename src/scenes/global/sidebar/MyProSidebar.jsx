@@ -81,7 +81,7 @@ const MyProSidebar = () => {
           color: `${colors.greenAccent[500]} !important`,
           backgroundColor: "transparent !important",
         },
-      }} 
+      }}
     >
       <Sidebar
         breakPoint="md"
