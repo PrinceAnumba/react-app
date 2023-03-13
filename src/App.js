@@ -6,7 +6,7 @@ import { MyProSidebarProvider } from "./scenes/global/sidebar/sidebarContext";
 import Topbar from "./scenes/global/Topbar";
 
 import Dashboard from "./scenes/dashboard";
-// import Team from "./pages/team";
+import Team from "./scenes/team";
 // import Invoices from "./pages/invoices";
 // import Contacts from "./pages/contacts";
 // import Form from "./pages/form";
@@ -29,8 +29,8 @@ const App = () => {
               <Topbar />
               <Routes>
                 <Route path="/" element={<Dashboard />} />
-                {/* <Route path="/team" element={<Team />} />
-                <Route path="/contacts" element={<Contacts />} />
+                <Route path="/team" element={<Team />} />
+                {/* <Route path="/contacts" element={<Contacts />} />
                 <Route path="/invoices" element={<Invoices />} />
                 <Route path="/form" element={<Form />} />
                 <Route path="/bar" element={<Bar />} />
