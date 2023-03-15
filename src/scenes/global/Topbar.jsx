@@ -21,7 +21,7 @@ const Topbar = () => {
         <IconButton type="button" sx={{ p:1 }}>
           <SearchOutlinedIcon/>
         </IconButton>
-    </Box>
+    </Box> 
     {/* ICONS */}
     <Box display="flex">
       <IconButton  onClick={colorMode.toggleColorMode}>
