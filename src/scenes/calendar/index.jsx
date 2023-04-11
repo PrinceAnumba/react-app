@@ -2,7 +2,6 @@ import React from 'react';
 import { useState } from "react";
 import FullCalendar from "@fullcalendar/react";
 import { formatDate } from '@fullcalendar/core'
-import Grid from "@mui/material/Unstable_Grid2";
 import dayGridPlugin from "@fullcalendar/daygrid";
 import timeGridPlugin from "@fullcalendar/timegrid";
 import interactionPlugin from "@fullcalendar/interaction";
